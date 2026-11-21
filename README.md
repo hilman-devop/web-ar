@@ -1,29 +1,58 @@
-# AR Biologi SMA - Augmented Reality Edukasi Biologi Kelas XI 🧠✨
+# AR Biologi SMA — Web Augmented Reality
 
-**Aplikasi Web Augmented Reality** untuk pembelajaran interaktif Biologi SMA Kelas XI, fokus pada **Sistem Organ Manusia** (Sistem Pernapasan & Sistem Koordinasi).
+![HTML5](https://img.shields.io/badge/HTML5-2f81f7?style=flat) ![CSS3](https://img.shields.io/badge/CSS3-2f81f7?style=flat) ![JavaScript](https://img.shields.io/badge/JavaScript-2f81f7?style=flat) ![AR.js](https://img.shields.io/badge/AR.js-2f81f7?style=flat) ![A-Frame](https://img.shields.io/badge/A-Frame-2f81f7?style=flat) ![Three.js](https://img.shields.io/badge/Three.js-2f81f7?style=flat)
 
-Proyek ini adalah landing page edukasi dengan desain modern dan animasi menarik yang mengarahkan pengguna ke dua modul AR berbasis web (menggunakan **AR.js** + **A-Frame**). Pengguna dapat mengakses pengalaman 3D interaktif langsung di browser tanpa instalasi aplikasi tambahan (hanya butuh kamera dan marker).
+> Landing page edukasi yang menghubungkan siswa ke modul AR interaktif tanpa instalasi aplikasi native.
 
-![Landing Page Preview](image/image.png) <!-- Upload screenshot landing page -->
+## Tentang proyek
 
-### 🚀 Fitur Utama
-- **Splash screen** dengan animasi gradient dan loading elegan
-- **Background animasi particles** floating untuk efek futuristik
-- **Responsive design** (mobile-first, tampil bagus di HP/tablet/desktop)
-- **Menu grid** dengan card interaktif (hover effect, glassmorphism)
-- Dua modul AR:
-  - **AR-BREATH**: Eksplorasi 3D sistem pernapasan manusia (paru-paru, alveolus, dll.)
-  - **AR-COORDINATION**: Visualisasi sistem saraf, hormon, dan indra
-- Pure HTML/CSS/JS (vanilla) + AR.js di sub-modul → ringan dan cepat load
-- Tidak butuh app eksternal → cukup scan marker dengan kamera HP/browser
+Landing page edukasi yang menghubungkan siswa ke modul AR interaktif tanpa instalasi aplikasi native. Dokumentasi ini dibuat sebagai panduan singkat untuk memahami ruang lingkup proyek, menjalankannya secara lokal, dan membaca batasan penggunaannya.
 
-### 🛠 Tech Stack
+## Fitur utama
+
+- Splash screen dan particle background
+- Layout responsif
+- Modul AR-BREATH
+- Modul AR-COORDINATION
+- Model 3D dan marker berbasis browser
+
+## Teknologi
+
 - HTML5
-- CSS3 (Flexbox, Grid, Animations, Glassmorphism, Gradient)
-- JavaScript Vanilla (particles, splash screen transition)
-- AR.js + A-Frame (di folder `AR-Breath/` dan `AR-Coordination/`)
-- Google Fonts (Poppins)
-- Icon dari Flaticon
+- CSS3
+- JavaScript
+- AR.js
+- A-Frame
+- Three.js
 
-🏆 Konteks Proyek
-Proyek ini dibuat sebagai media pembelajaran interaktif Biologi SMA, menggabungkan web development dengan teknologi Augmented Reality untuk meningkatkan engagement siswa.
+## Menjalankan secara lokal
+
+Prasyarat dan konfigurasi dapat berbeda menurut sistem operasi. Contoh langkah utama:
+
+```bash
+Buka `index.html` melalui web server lokal agar asset dan kamera berjalan normal.
+```
+
+## Struktur dan pengembangan
+
+Mulai dari entry point dan folder konfigurasi proyek. Pisahkan credential lokal dari source code, tambahkan test untuk perubahan penting, dan gunakan environment variable untuk konfigurasi deployment.
+
+## Keamanan
+
+- Jangan commit API key, password, token, session ID, atau data pribadi.
+- Gunakan file environment lokal dan contoh konfigurasi tanpa nilai rahasia.
+- Uji perubahan pada environment development sebelum deployment.
+
+## Status
+
+Proyek ini merupakan bagian dari portofolio **Hilman Arifin Ilham** dan dapat dikembangkan sesuai kebutuhan penggunaan.
+
+> **Catatan:** Akses kamera memerlukan browser yang mendukung permission camera dan konteks aman sesuai kebutuhan WebAR.
+
+## Lisensi
+
+Belum ada lisensi open-source yang dinyatakan di repository ini. Hubungi pemilik repository sebelum menggunakan ulang atau mendistribusikan kode.
+
+---
+
+Dibuat oleh [Hilman Arifin Ilham](https://github.com/hilman-devop).
