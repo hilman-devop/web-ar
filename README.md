@@ -4,7 +4,9 @@
 
 **Stack:** HTML5 · JavaScript · AR.js · A-Frame
 
-![Preview](https://raw.githubusercontent.com/hilman-devop/web-ar/main/image/image.png)
+![Menu pembelajaran AR Biologi SMA](screenshots/portfolio-preview.jpg)
+
+*Screenshot menu aplikasi dari server lokal, diambil 25 November 2026. Capture ini bukan pengujian kamera atau fungsi AR; tautan menu masih merujuk `index.html` modul yang tidak tersedia pada source saat capture.*
 
 ## Ringkasan
 
